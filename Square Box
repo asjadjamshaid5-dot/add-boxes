@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(135deg, skyblue, lightgreen);
+  border: 2px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+}
